@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Battleship
 
 ## Getting Started
@@ -374,3 +375,7 @@ public void doTurn(Arena arena) {
     this.fire(arena, 0, 0);
 }
 ```
+=======
+# java-workshop
+Skeleton code and curriculum content for our Java workshop taught on 10/10/2018.
+>>>>>>> 4ca6e8440366794e6c580ed3105a6b506f8530c3
