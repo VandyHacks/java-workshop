@@ -11,25 +11,18 @@
 .mtj.tmp/
 
 # Package Files #
-<<<<<<< HEAD
-
 *.war
-=======
 *.jar
 *.war
 *.nar
->>>>>>> 4ca6e8440366794e6c580ed3105a6b506f8530c3
 *.ear
 *.zip
 *.tar.gz
 *.rar
 
-<<<<<<< HEAD
 # Game Files
 lib/*
 files/*.txt
 
-=======
->>>>>>> 4ca6e8440366794e6c580ed3105a6b506f8530c3
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
