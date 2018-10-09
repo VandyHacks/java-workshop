@@ -1,31 +1,55 @@
+/*
+ * TODO - Add your name below!
+ * Name:
+ * Description: This is my very own Ship object!
+ */
+
 package ships;
 
-import core.Arena;
-import core.Ship;
+import core.*;
 
-/*
- * Custom Ship
- * @author Your Name
- */
+import java.util.List;
+
 public class MyShip extends Ship {
 
-    public CustomShip() {
-        this.initializeName("Custom Ship");
-        this.initializeOwner("Your Name");
-        this.initializeHull(1);
-        this.initializeFirepower(1);
-        this.initializeSpeed(1);
-        this.initializeRange(1);
+    /**
+     * This method is the constructor for MyShip.
+     */
+    public MyShip() {
+        // TODO - Give your ship whatever attributes you'd like!
+        this.initializeName("");
+        this.initializeOwner("");
+        this.initializeHull(0);
+        this.initializeFirepower(0);
+        this.initializeSpeed(0);
+        this.initializeRange(0);
     }
 
-    /*
+    /**
      * Determines what actions the ship will take on a given turn
-     * @param arena (Arena) the battlefield for the match
-     * @return void
+     * @param arena - the battlefield for the match
      */
     @Override
     protected void doTurn(Arena arena) {
-        // Fill in your strategy here
+        // Make your ship move
+        Coord location = this.getCoord();
+        this.move(arena, Direction.WEST);
+
+        // Get a list of nearby ships
+        List<Ship> nearby = this.getNearbyShips(arena);
+
+        // loop through the list of nearby ships
+        for (int i = 0; i < nearby.size(); i++) {
+            if (this.isSameTeamAs(nearby.get(i))) {
+                // if same team, don't shoot
+            } else {
+                Ship enemy = nearby.get(i);
+                Coord enemyLoc = enemy.getCoord();
+                int x = enemyLoc.getX();
+                int y = enemyLoc.getY();
+                this.fire(arena, x, y);
+            }
+        }
     }
 
 }
