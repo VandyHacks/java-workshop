@@ -9,6 +9,7 @@ import ships.*;
 
 import java.util.LinkedList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Main extends Game {
     // Lists of Ships representing our different teams
@@ -87,39 +88,44 @@ public class Main extends Game {
         // TODO - Fill this in!
     }
 
+    /**
+     * Get the results of this battle.
+     *
+     * @return A String of the battle results.
+     */
     @Override
     public String getResults() {
-        List<Ship> sunk = new LinkedList<Ship>();
-        List<Ship> allShips = new LinkedList<Ship>(redTeam);
+        // Instantiate lists of ships
+        List<Ship> sunkShips = new LinkedList<>(), allShips = new LinkedList<>();
+
+        // Add all the ships from the battle to allShips and all sunken ships to sunkShips
         allShips.addAll(blueTeam);
-        for (Ship ship : allShips) {
-            if (ship.isSunk()) {
-                sunk.add(ship);
-            }
-        }
-        // Score = number of enemy ships sunk
-        int redScore = countSunkShips(blueTeam);
-        int blueScore = countSunkShips(redTeam);
-        String res = "";
+        allShips.addAll(redTeam);
+        sunkShips.addAll(allShips.stream().filter(Ship::isSunk).collect(Collectors.toList()));
+
+        // Calculate each team's score (the number of enemy ships sunk)
+        int redScore = countSunkShips(blueTeam), blueScore = countSunkShips(redTeam);
+
+        // Build the result String
+        StringBuilder result = new StringBuilder();
+
         if (redScore == blueScore) {
-            res += "Battle was a draw.";
+            result.append("Battle was a draw!");
         } else if (redScore > blueScore) {
-            res += "Red Team wins.";
+            result.append("Red Team won!");
         } else {
-            res += "Blue Team wins.";
+            result.append("Blue Team won!");
         }
-        res += String.format(" Ships Sunk: Red (%d) - Blue (%d)", redScore, blueScore);
-        for (Ship ship : sunk) {
-            res += "\n";
-            res += "- " + ship.getName() + " sunk by " + ship.getSunkBy().getName() + ".";
+
+        result.append(String.format(" Ships Sunk: Red (%d) - Blue (%d)", redScore, blueScore));
+
+        for (Ship ship : sunkShips) {
+            String sunkShipInfo = "\n" + "- " + ship.getName() + " sunk by " + ship.getSunkBy()
+                .getName() + ".";
+            result.append(sunkShipInfo);
         }
-        boolean isDraw = redScore == blueScore;
-        // if (!isDraw) {
-        // 	Helper.writeFileLine("./OUTPUT", "100");
-        // } else {
-        // 	Helper.writeFileLine("./OUTPUT", "0");
-        // }
-        return res;
+
+        return result.toString();
     }
 
     @Override
