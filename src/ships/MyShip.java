@@ -7,7 +7,7 @@ import core.Ship;
  * Custom Ship
  * @author Your Name
  */
-public class CustomShip extends Ship {
+public class MyShip extends Ship {
 
     public CustomShip() {
         this.initializeName("Custom Ship");
