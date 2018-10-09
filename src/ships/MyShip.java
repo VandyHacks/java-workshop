@@ -1,7 +1,7 @@
 /*
  * TODO - Add your name below!
  * Name:
- * Description: This is my very own Ship object!
+ * Description: This is my very own Ship!
  */
 
 package ships;
@@ -31,25 +31,21 @@ public class MyShip extends Ship {
      */
     @Override
     protected void doTurn(Arena arena) {
-        // Make your ship move
-        Coord location = this.getCoord();
-        this.move(arena, Direction.WEST);
+        // TODO - Make your ship move in the arena!
 
         // Get a list of nearby ships
         List<Ship> nearby = this.getNearbyShips(arena);
 
-        // loop through the list of nearby ships
-        for (int i = 0; i < nearby.size(); i++) {
-            if (this.isSameTeamAs(nearby.get(i))) {
-                // if same team, don't shoot
-            } else {
-                Ship enemy = nearby.get(i);
-                Coord enemyLoc = enemy.getCoord();
-                int x = enemyLoc.getX();
-                int y = enemyLoc.getY();
-                this.fire(arena, x, y);
+        // Loop through the list of nearby ships
+        for (Ship nearbyShip : nearby) {
+            // Only attack ships that aren't on your team
+            if (!this.isSameTeamAs(nearbyShip)) {
+                // TODO - Get the enemy's coordinates and store them in a Coord object
+
+                // TODO - Get the enemy's x and y coordinates and store them in variables
+
+                // TODO - Fire at your enemy's location!
             }
         }
     }
-
 }
