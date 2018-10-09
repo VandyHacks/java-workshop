@@ -1,8 +1,7 @@
-/**
- * TODO - Add your name below next to the @author tag!
- * @author
- * <p>
- * This class runs your Battleship game!
+/*
+ * TODO - Add your name below!
+ * Name:
+ * Description: This file runs a 2v2 Battleship game!
  */
 
 import core.*;
