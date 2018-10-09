@@ -25,7 +25,7 @@ public class Main extends Game {
      */
     @Override
     public String getObjective() {
-        return "";
+        return "Mission Objective: Win the 2v2 battle against the other team.";
     }
 
     /**
