@@ -34,7 +34,7 @@ public class Main extends Game {
      */
     @Override
     public Arena initializeArena() {
-        // Instantiate a new Arena object that's 10x10
+        // Instantiate a new 10x10 arena
         Arena arena = new Arena(10, 10);
 
         // TODO - Instantiate (build) your Custom ship here!
@@ -60,18 +60,70 @@ public class Main extends Game {
         return arena;
     }
 
+    /**
+     * Count all the sunk ships on a team.
+     * @param team - The team whose ships we're checking
+     * @return The number of sunk ships on the given team
+     */
+    private int countSunkShips(List<Ship> team) {
+        // TODO - Fill this in!
+    }
+
+    /**
+     * Check if all the ships on a team are sunk.
+     * @param team - The team whose ships we're checking
+     * @return Whether or not all of the team's ships are sunk
+     */
+    private boolean isTeamSunk(List<Ship> team) {
+        // TODO - Fill this in!
+    }
+
+    /**
+     * Check if the game is completed - that is, if the Red Team or the Blue Team is all sunk.
+     * @return Whether or not the game is completed.
+     */
     @Override
     public boolean isCompleted() {
-        return false;
+        // TODO - Fill this in!
     }
 
     @Override
     public String getResults() {
-        return null;
+        List<Ship> sunk = new LinkedList<Ship>();
+        List<Ship> allShips = new LinkedList<Ship>(redTeam);
+        allShips.addAll(blueTeam);
+        for (Ship ship : allShips) {
+            if (ship.isSunk()) {
+                sunk.add(ship);
+            }
+        }
+        // Score = number of enemy ships sunk
+        int redScore = countSunkShips(blueTeam);
+        int blueScore = countSunkShips(redTeam);
+        String res = "";
+        if (redScore == blueScore) {
+            res += "Battle was a draw.";
+        } else if (redScore > blueScore) {
+            res += "Red Team wins.";
+        } else {
+            res += "Blue Team wins.";
+        }
+        res += String.format(" Ships Sunk: Red (%d) - Blue (%d)", redScore, blueScore);
+        for (Ship ship : sunk) {
+            res += "\n";
+            res += "- " + ship.getName() + " sunk by " + ship.getSunkBy().getName() + ".";
+        }
+        boolean isDraw = redScore == blueScore;
+        // if (!isDraw) {
+        // 	Helper.writeFileLine("./OUTPUT", "100");
+        // } else {
+        // 	Helper.writeFileLine("./OUTPUT", "0");
+        // }
+        return res;
     }
 
     @Override
     public void run() {
-
+        this.runMission(getArena());
     }
 }
