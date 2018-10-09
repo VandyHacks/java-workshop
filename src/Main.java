@@ -6,15 +6,13 @@
 
 import core.*;
 import ships.*;
-
-import java.util.LinkedList;
-import java.util.List;
-import java.util.stream.Collectors;
+import java.util.*;
+import java.util.stream.*;
 
 public class Main extends Game {
     // Lists of Ships representing our different teams
-    private List<Ship> redTeam = new LinkedList<Ship>();
-    private List<Ship> blueTeam = new LinkedList<Ship>();
+    private List<Ship> redTeam = new LinkedList<>();
+    private List<Ship> blueTeam = new LinkedList<>();
 
     public static void main(String[] args) {
 
@@ -35,30 +33,25 @@ public class Main extends Game {
      */
     @Override
     public Arena initializeArena() {
-        // Instantiate a new 10x10 arena
-        Arena arena = new Arena(10, 10);
+        // TODO - Instantiate a new arena of any size
 
         // TODO - Instantiate (build) your Custom ship here!
 
         /*
-         * TODO - Instantiate a three more ships of your choosing
-         *        You can use any of the classes in the ships/ folder
+         * TODO - Choose two ships to add to the Red Team
+         *        Assign both ships a team with setShipTeam() and a color with setShipColor().
+         *        You'll also need to spawn each ship in the Arena with spawnShip().
+         *        Finally, add each ship to the redTeam list.
          */
 
         /*
-         * TODO - Choose two ships to add to the Red Team.
-         *        For each ship, you'll need to call setShipTeam(), setShipColor(),
-         *        spawnShip(), and add the ship to the redTeam list.
+         * TODO - Choose two ships to add to the Blue Team
+         *        Assign both ships a team with setShipTeam() and a color with setShipColor().
+         *        You'll also need to spawn each ship in the Arena with spawnShip().
+         *        Finally, add each ship to the blueTeam list.
          */
 
-        /*
-         * TODO - Choose two ships to add to the Blue Team.
-         *        For each ship, you'll need to call setShipTeam(), setShipColor(),
-         *        spawnShip(), and add the ship to the blueTeam list.
-         */
-
-        // Return an Arena with several ships spawned in it
-        return arena;
+        // TODO - Return your Arena!
     }
 
     /**
@@ -128,6 +121,9 @@ public class Main extends Game {
         return result.toString();
     }
 
+    /**
+     * Runs a mission.
+     */
     @Override
     public void run() {
         this.runMission(getArena());
