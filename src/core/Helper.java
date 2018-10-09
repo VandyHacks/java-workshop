@@ -33,7 +33,7 @@ public class Helper {
             }
             FileRecord rec = fileMap.get(filename);
             if (!rec.isOpenForWriting()) {
-                rec.openForWriting();
+//                rec.openForWriting();
             }
             rec.writeFileLine(content);
         }
@@ -117,15 +117,15 @@ public class Helper {
             return this.br != null;
         }
 
-        public void openForWriting() {
-            try {
-                this.fw = new FileWriter(filename);
-                this.bw = new BufferedWriter(this.fw);
-            } catch (IOException e) {
-                System.out.println("Error in openForWriting()");
-                e.printStackTrace();
-            }
-        }
+//        public void openForWriting() {
+//            try {
+//                this.fw = new FileWriter(filename);
+//                this.bw = new BufferedWriter(this.fw);
+//            } catch (IOException e) {
+//                System.out.println("Error in openForWriting()");
+//                e.printStackTrace();
+//            }
+//        }
 
         public void openForReading() {
             try {

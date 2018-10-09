@@ -53,7 +53,7 @@ public class Arena {
                 detail += "no shots remaining on this turn.";
             }
             if (inDebugMode()) {
-                Helper.writeFileLine(DEBUG_FILE, detail);
+//                Helper.writeFileLine(DEBUG_FILE, detail);
             }
         }
     }
@@ -101,7 +101,7 @@ public class Arena {
                 detail += "no moves remaining on this turn.";
             }
             if (inDebugMode()) {
-                Helper.writeFileLine(DEBUG_FILE, detail);
+//                Helper.writeFileLine(DEBUG_FILE, detail);
             }
             actions.add(new Action(source, getTurn(), dir));
         }

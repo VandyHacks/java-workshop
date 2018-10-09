@@ -163,22 +163,22 @@ public abstract class Game {
         String logFile = this.getLogFile();
         this.print("\n");
         this.println(this.getObjective());
-        Helper.writeFileLine(logFile, "Log File: Exceptions");
-        Helper.writeFileLine(arenaFile, "Initial Map");
-        Helper.writeFileLine(arenaFile, getArenaAsText(arena));
+////        Helper.writeFileLine(logFile, "Log File: Exceptions");
+////        Helper.writeFileLine(arenaFile, "Initial Map");
+////        Helper.writeFileLine(arenaFile, getArenaAsText(arena));
         this.println("\n" + getArenaAsText(arena));
         arena.setDebugMode(debugMode, debugFile);
         boolean success = false;
         int t = 0;
         while (t < maxTurns) {
-            Helper.writeFileLine(debugFile, "Turn " + t);
+////            Helper.writeFileLine(debugFile, "Turn " + t);
             //if (t % 10 == 0) {
             this.print("\rTurn " + t + "\t\t");
             //}
             List<Ship> ships = this.sortShipsByPriority(arena);
             for (Ship ship : ships) {
                 if (!ship.isSunk()) {
-                    Helper.writeFileLine(debugFile, ship + "");
+////                    Helper.writeFileLine(debugFile, ship + "");
                     this.initializeTurn(ship);
                     PrintStream oldOut = System.out;
                     if (!this.canPrint()) {
@@ -194,15 +194,15 @@ public abstract class Game {
                         String err = "Exception on Turn " + t + ", caused by " + ship + ":\n";
                         err += exceptionAsString;
                         err += "\n";
-                        Helper.writeFileLine(logFile, err);
+//                        Helper.writeFileLine(logFile, err);
                         hadAnyProblems = true;
                         // Squash problems with the doTurn function
                     }
                     System.setOut(oldOut);
                 }
             }
-            Helper.writeFileLine(arenaFile, "After T = " + t);
-            Helper.writeFileLine(arenaFile, getArenaAsText(arena));
+//            Helper.writeFileLine(arenaFile, "After T = " + t);
+//            Helper.writeFileLine(arenaFile, getArenaAsText(arena));
             if (this.isCompleted()) {
                 success = true;
                 break;
