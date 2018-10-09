@@ -37,44 +37,24 @@ public class Main extends Game {
         // Instantiate a new Arena object that's 10x10
         Arena arena = new Arena(10, 10);
 
-        // TODO - Instantiate (build) your ship here and set its team and color!
-        // Ship ship1 = new [YourShipName]Ship.java
-        // setShipTeam(ship1, "Team Name");
-        // setShipColor(ship1, "#ffffff");
-
-        // TODO - Spawn your ship in this arena with the spawnShip() method!
-        // spawnShip(arena, [x coordinate], [y coordinate], ship1);
+        // TODO - Instantiate (build) your Custom ship here!
 
         /*
-         * TODO - Instantiate a few more ships of your choosing.
-         *        For each ship, you'll have to set its team, set its color, spawn it,
-         *        and add it to either the redTeam or blueTeam.
+         * TODO - Instantiate a three more ships of your choosing
+         *        You can use any of the classes in the ships/ folder
          */
-        Ship scarlet = new DroneShip();
-        Ship crimson = new GunDroneShip();
-        Ship azure = new HiveShip();
-        Ship teal = new PatrolShip();
 
-        // Add
-        setShipTeam(scarlet, "Red Team");
-        setShipColor(scarlet, "#ff291e");
-        spawnShip(arena, 0, 5, scarlet);
-        redTeam.add(scarlet);
+        /*
+         * TODO - Choose two ships to add to the Red Team.
+         *        For each ship, you'll need to call setShipTeam(), setShipColor(),
+         *        spawnShip(), and add the ship to the redTeam list.
+         */
 
-        setShipTeam(crimson, "Red Team");
-        setShipColor(crimson, "#dc143c");
-        spawnShip(arena, 0, 6, crimson);
-        redTeam.add(crimson);
-
-        setShipTeam(azure, "Blue Team");
-        setShipColor(azure, "#1c89ff");
-        spawnShip(arena, 9, 5, azure);
-        blueTeam.add(azure);
-
-        setShipTeam(teal, "Blue Team");
-        setShipColor(teal, "#149eba");
-        spawnShip(arena, 9, 6, teal);
-        blueTeam.add(teal);
+        /*
+         * TODO - Choose two ships to add to the Blue Team.
+         *        For each ship, you'll need to call setShipTeam(), setShipColor(),
+         *        spawnShip(), and add the ship to the blueTeam list.
+         */
 
         // Return an Arena with several ships spawned in it
         return arena;
