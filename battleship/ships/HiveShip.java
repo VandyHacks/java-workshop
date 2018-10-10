@@ -59,7 +59,7 @@ public class HiveShip extends Ship {
     
     public QueenShip getQueen(Arena arena) throws LostWillToFightException {
         if (this.trueQueen == null) {
-            Ship self = this;
+            final Ship self = this;
             List<Ship> allShips = arena.getAllShips();
             Collections.sort(allShips, new Comparator<Ship>() {
                 public int compare(Ship s1, Ship s2) {

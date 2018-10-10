@@ -254,7 +254,7 @@ public class Arena {
 	
 	protected List<Ship> sortShipsByPriority() {
 		List<Ship> ships = this.getAllShips();
-		Map<Ship, Double> priorityMap = new HashMap<Ship, Double>();
+		final Map<Ship, Double> priorityMap = new HashMap<Ship, Double>();
 		for (Ship ship: ships) {
 			double baseSpeed = (double) ship.getSpeed();
 			double rand = getRandom().nextDouble();

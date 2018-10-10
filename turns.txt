@@ -1,66 +1,250 @@
 Turn 0
 duobattle.redteam.ScarletShip@1540e19d
-- Moved South, now at (0, 1).
 duobattle.blueteam.AzureShip@677327b6
-- Moved West, now at (8, 0).
 duobattle.redteam.CrimsonShip@14ae5a5
-- Moved North, now at (0, 8).
 duobattle.blueteam.TealShip@7f31245a
-- Moved North, now at (9, 8).
 Turn 1
-duobattle.redteam.ScarletShip@1540e19d
-- Moved South, now at (0, 2).
 duobattle.blueteam.AzureShip@677327b6
-- Moved West, now at (7, 0).
+duobattle.redteam.ScarletShip@1540e19d
 duobattle.redteam.CrimsonShip@14ae5a5
-- Moved North, now at (0, 7).
 duobattle.blueteam.TealShip@7f31245a
-- Moved North, now at (9, 7).
 Turn 2
 duobattle.redteam.CrimsonShip@14ae5a5
-- Moved North, now at (0, 6).
-duobattle.redteam.ScarletShip@1540e19d
-- Moved South, now at (0, 3).
 duobattle.blueteam.AzureShip@677327b6
-- Moved West, now at (6, 0).
+duobattle.redteam.ScarletShip@1540e19d
 duobattle.blueteam.TealShip@7f31245a
-- Moved North, now at (9, 6).
 Turn 3
-duobattle.blueteam.AzureShip@677327b6
-- Moved West, now at (5, 0).
-duobattle.blueteam.TealShip@7f31245a
-- Moved North, now at (9, 5).
 duobattle.redteam.ScarletShip@1540e19d
-- Moved South, now at (0, 4).
+duobattle.blueteam.TealShip@7f31245a
+duobattle.blueteam.AzureShip@677327b6
 duobattle.redteam.CrimsonShip@14ae5a5
-- Moved North, now at (0, 5).
-- Fired at (0, 4), sunk ship!
 Turn 4
-duobattle.redteam.CrimsonShip@14ae5a5
-- Moved North, now at (0, 4).
 duobattle.blueteam.AzureShip@677327b6
-- Moved West, now at (4, 0).
 duobattle.blueteam.TealShip@7f31245a
-- Moved North, now at (9, 4).
+duobattle.redteam.ScarletShip@1540e19d
+duobattle.redteam.CrimsonShip@14ae5a5
 Turn 5
-duobattle.redteam.CrimsonShip@14ae5a5
-- Moved North, now at (0, 3).
-duobattle.blueteam.AzureShip@677327b6
-- Moved West, now at (3, 0).
 duobattle.blueteam.TealShip@7f31245a
-- Moved North, now at (9, 3).
+duobattle.redteam.ScarletShip@1540e19d
+duobattle.redteam.CrimsonShip@14ae5a5
+duobattle.blueteam.AzureShip@677327b6
 Turn 6
 duobattle.redteam.CrimsonShip@14ae5a5
-- Moved North, now at (0, 2).
-duobattle.blueteam.AzureShip@677327b6
-- Moved West, now at (2, 0).
 duobattle.blueteam.TealShip@7f31245a
-- Moved North, now at (9, 2).
+duobattle.blueteam.AzureShip@677327b6
+duobattle.redteam.ScarletShip@1540e19d
 Turn 7
-duobattle.redteam.CrimsonShip@14ae5a5
-- Moved North, now at (0, 1).
-duobattle.blueteam.TealShip@7f31245a
-- Moved North, now at (9, 1).
+duobattle.redteam.ScarletShip@1540e19d
 duobattle.blueteam.AzureShip@677327b6
-- Moved West, now at (1, 0).
-- Fired at (0, 1), sunk ship!
+duobattle.redteam.CrimsonShip@14ae5a5
+duobattle.blueteam.TealShip@7f31245a
+Turn 8
+duobattle.redteam.ScarletShip@1540e19d
+duobattle.blueteam.AzureShip@677327b6
+duobattle.redteam.CrimsonShip@14ae5a5
+duobattle.blueteam.TealShip@7f31245a
+Turn 9
+duobattle.blueteam.TealShip@7f31245a
+duobattle.redteam.CrimsonShip@14ae5a5
+duobattle.blueteam.AzureShip@677327b6
+duobattle.redteam.ScarletShip@1540e19d
+Turn 10
+duobattle.blueteam.TealShip@7f31245a
+duobattle.blueteam.AzureShip@677327b6
+duobattle.redteam.ScarletShip@1540e19d
+duobattle.redteam.CrimsonShip@14ae5a5
+Turn 11
+duobattle.redteam.ScarletShip@1540e19d
+duobattle.blueteam.AzureShip@677327b6
+duobattle.redteam.CrimsonShip@14ae5a5
+duobattle.blueteam.TealShip@7f31245a
+Turn 12
+duobattle.redteam.ScarletShip@1540e19d
+duobattle.blueteam.TealShip@7f31245a
+duobattle.blueteam.AzureShip@677327b6
+duobattle.redteam.CrimsonShip@14ae5a5
+Turn 13
+duobattle.redteam.ScarletShip@1540e19d
+duobattle.redteam.CrimsonShip@14ae5a5
+duobattle.blueteam.TealShip@7f31245a
+duobattle.blueteam.AzureShip@677327b6
+Turn 14
+duobattle.redteam.ScarletShip@1540e19d
+duobattle.blueteam.AzureShip@677327b6
+duobattle.redteam.CrimsonShip@14ae5a5
+duobattle.blueteam.TealShip@7f31245a
+Turn 15
+duobattle.blueteam.AzureShip@677327b6
+duobattle.blueteam.TealShip@7f31245a
+duobattle.redteam.ScarletShip@1540e19d
+duobattle.redteam.CrimsonShip@14ae5a5
+Turn 16
+duobattle.redteam.ScarletShip@1540e19d
+duobattle.blueteam.TealShip@7f31245a
+duobattle.blueteam.AzureShip@677327b6
+duobattle.redteam.CrimsonShip@14ae5a5
+Turn 17
+duobattle.redteam.ScarletShip@1540e19d
+duobattle.redteam.CrimsonShip@14ae5a5
+duobattle.blueteam.AzureShip@677327b6
+duobattle.blueteam.TealShip@7f31245a
+Turn 18
+duobattle.redteam.CrimsonShip@14ae5a5
+duobattle.blueteam.AzureShip@677327b6
+duobattle.blueteam.TealShip@7f31245a
+duobattle.redteam.ScarletShip@1540e19d
+Turn 19
+duobattle.redteam.ScarletShip@1540e19d
+duobattle.blueteam.TealShip@7f31245a
+duobattle.redteam.CrimsonShip@14ae5a5
+duobattle.blueteam.AzureShip@677327b6
+Turn 20
+duobattle.redteam.CrimsonShip@14ae5a5
+duobattle.redteam.ScarletShip@1540e19d
+duobattle.blueteam.AzureShip@677327b6
+duobattle.blueteam.TealShip@7f31245a
+Turn 21
+duobattle.redteam.CrimsonShip@14ae5a5
+duobattle.redteam.ScarletShip@1540e19d
+duobattle.blueteam.TealShip@7f31245a
+duobattle.blueteam.AzureShip@677327b6
+Turn 22
+duobattle.blueteam.TealShip@7f31245a
+duobattle.redteam.ScarletShip@1540e19d
+duobattle.blueteam.AzureShip@677327b6
+duobattle.redteam.CrimsonShip@14ae5a5
+Turn 23
+duobattle.blueteam.TealShip@7f31245a
+duobattle.blueteam.AzureShip@677327b6
+duobattle.redteam.CrimsonShip@14ae5a5
+duobattle.redteam.ScarletShip@1540e19d
+Turn 24
+duobattle.blueteam.TealShip@7f31245a
+duobattle.redteam.ScarletShip@1540e19d
+duobattle.blueteam.AzureShip@677327b6
+duobattle.redteam.CrimsonShip@14ae5a5
+Turn 25
+duobattle.blueteam.AzureShip@677327b6
+duobattle.redteam.CrimsonShip@14ae5a5
+duobattle.blueteam.TealShip@7f31245a
+duobattle.redteam.ScarletShip@1540e19d
+Turn 26
+duobattle.blueteam.TealShip@7f31245a
+duobattle.blueteam.AzureShip@677327b6
+duobattle.redteam.CrimsonShip@14ae5a5
+duobattle.redteam.ScarletShip@1540e19d
+Turn 27
+duobattle.blueteam.AzureShip@677327b6
+duobattle.redteam.ScarletShip@1540e19d
+duobattle.redteam.CrimsonShip@14ae5a5
+duobattle.blueteam.TealShip@7f31245a
+Turn 28
+duobattle.blueteam.AzureShip@677327b6
+duobattle.redteam.CrimsonShip@14ae5a5
+duobattle.redteam.ScarletShip@1540e19d
+duobattle.blueteam.TealShip@7f31245a
+Turn 29
+duobattle.blueteam.TealShip@7f31245a
+duobattle.redteam.ScarletShip@1540e19d
+duobattle.blueteam.AzureShip@677327b6
+duobattle.redteam.CrimsonShip@14ae5a5
+Turn 30
+duobattle.blueteam.TealShip@7f31245a
+duobattle.blueteam.AzureShip@677327b6
+duobattle.redteam.ScarletShip@1540e19d
+duobattle.redteam.CrimsonShip@14ae5a5
+Turn 31
+duobattle.redteam.ScarletShip@1540e19d
+duobattle.blueteam.AzureShip@677327b6
+duobattle.redteam.CrimsonShip@14ae5a5
+duobattle.blueteam.TealShip@7f31245a
+Turn 32
+duobattle.blueteam.AzureShip@677327b6
+duobattle.blueteam.TealShip@7f31245a
+duobattle.redteam.ScarletShip@1540e19d
+duobattle.redteam.CrimsonShip@14ae5a5
+Turn 33
+duobattle.redteam.CrimsonShip@14ae5a5
+duobattle.redteam.ScarletShip@1540e19d
+duobattle.blueteam.AzureShip@677327b6
+duobattle.blueteam.TealShip@7f31245a
+Turn 34
+duobattle.redteam.ScarletShip@1540e19d
+duobattle.blueteam.TealShip@7f31245a
+duobattle.blueteam.AzureShip@677327b6
+duobattle.redteam.CrimsonShip@14ae5a5
+Turn 35
+duobattle.blueteam.TealShip@7f31245a
+duobattle.redteam.CrimsonShip@14ae5a5
+duobattle.blueteam.AzureShip@677327b6
+duobattle.redteam.ScarletShip@1540e19d
+Turn 36
+duobattle.redteam.ScarletShip@1540e19d
+duobattle.redteam.CrimsonShip@14ae5a5
+duobattle.blueteam.TealShip@7f31245a
+duobattle.blueteam.AzureShip@677327b6
+Turn 37
+duobattle.redteam.CrimsonShip@14ae5a5
+duobattle.blueteam.AzureShip@677327b6
+duobattle.blueteam.TealShip@7f31245a
+duobattle.redteam.ScarletShip@1540e19d
+Turn 38
+duobattle.redteam.ScarletShip@1540e19d
+duobattle.blueteam.AzureShip@677327b6
+duobattle.blueteam.TealShip@7f31245a
+duobattle.redteam.CrimsonShip@14ae5a5
+Turn 39
+duobattle.redteam.CrimsonShip@14ae5a5
+duobattle.blueteam.TealShip@7f31245a
+duobattle.blueteam.AzureShip@677327b6
+duobattle.redteam.ScarletShip@1540e19d
+Turn 40
+duobattle.redteam.ScarletShip@1540e19d
+duobattle.redteam.CrimsonShip@14ae5a5
+duobattle.blueteam.AzureShip@677327b6
+duobattle.blueteam.TealShip@7f31245a
+Turn 41
+duobattle.redteam.ScarletShip@1540e19d
+duobattle.blueteam.TealShip@7f31245a
+duobattle.redteam.CrimsonShip@14ae5a5
+duobattle.blueteam.AzureShip@677327b6
+Turn 42
+duobattle.blueteam.TealShip@7f31245a
+duobattle.blueteam.AzureShip@677327b6
+duobattle.redteam.CrimsonShip@14ae5a5
+duobattle.redteam.ScarletShip@1540e19d
+Turn 43
+duobattle.redteam.ScarletShip@1540e19d
+duobattle.blueteam.TealShip@7f31245a
+duobattle.redteam.CrimsonShip@14ae5a5
+duobattle.blueteam.AzureShip@677327b6
+Turn 44
+duobattle.blueteam.AzureShip@677327b6
+duobattle.redteam.CrimsonShip@14ae5a5
+duobattle.redteam.ScarletShip@1540e19d
+duobattle.blueteam.TealShip@7f31245a
+Turn 45
+duobattle.blueteam.TealShip@7f31245a
+duobattle.redteam.CrimsonShip@14ae5a5
+duobattle.blueteam.AzureShip@677327b6
+duobattle.redteam.ScarletShip@1540e19d
+Turn 46
+duobattle.redteam.CrimsonShip@14ae5a5
+duobattle.blueteam.AzureShip@677327b6
+duobattle.redteam.ScarletShip@1540e19d
+duobattle.blueteam.TealShip@7f31245a
+Turn 47
+duobattle.blueteam.TealShip@7f31245a
+duobattle.blueteam.AzureShip@677327b6
+duobattle.redteam.ScarletShip@1540e19d
+duobattle.redteam.CrimsonShip@14ae5a5
+Turn 48
+duobattle.blueteam.TealShip@7f31245a
+duobattle.redteam.ScarletShip@1540e19d
+duobattle.blueteam.AzureShip@677327b6
+duobattle.redteam.CrimsonShip@14ae5a5
+Turn 49
+duobattle.blueteam.AzureShip@677327b6
+duobattle.redteam.ScarletShip@1540e19d
+duobattle.redteam.CrimsonShip@14ae5a5
+duobattle.blueteam.TealShip@7f31245a

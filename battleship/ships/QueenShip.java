@@ -51,7 +51,7 @@ public class QueenShip extends Ship {
         }
     }
     
-    public Ship getNextTarget(Arena arena, Ship servant) {
+    public Ship getNextTarget(Arena arena, final Ship servant) {
         Ship target = null;
         List<Ship> options = new ArrayList<Ship>();
         for (Ship ship : QueenShip.getAllEnemyShips(arena, servant)) {
@@ -84,7 +84,7 @@ public class QueenShip extends Ship {
         return target;
     }
     
-    public Ship getNextEnemy(Arena arena, Ship servant) {
+    public Ship getNextEnemy(Arena arena, final Ship servant) {
         Ship nextEnemy = null;
         List<Ship> ships = QueenShip.getAllEnemyShips(arena, servant);
         Collections.sort(ships, new Comparator<Ship>() {
