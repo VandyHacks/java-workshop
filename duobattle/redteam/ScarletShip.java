@@ -1,11 +1,15 @@
 package duobattle.redteam;
 
 import battleship.core.Arena;
+import battleship.core.Coord;
+import battleship.core.Direction;
 import battleship.core.Ship;
 
+import java.util.List;
+
 /*
- * Red Team: Scarlet Ship
- * @author Your Name
+ * Red Team: Crimson Ship
+ * @author ESI, modified by the VandyHacks team
  */
 public class ScarletShip extends Ship {
 
@@ -14,13 +18,11 @@ public class ScarletShip extends Ship {
      */
     public ScarletShip() {
         this.initializeName("Scarlet");
-        this.initializeOwner("Your Name"); // TODO - Change this to your name!
-
-        // TODO - Give your ship up to 10 points total for its hull, firepower, speed, and range
-        this.initializeHull(1);
+        this.initializeOwner("The Red Team");
+        this.initializeHull(6);
         this.initializeFirepower(1);
         this.initializeSpeed(1);
-        this.initializeRange(1);
+        this.initializeRange(2);
     }
 
     /**
@@ -30,7 +32,13 @@ public class ScarletShip extends Ship {
      */
     @Override
     protected void doTurn(Arena arena) {
-        // TODO - Fill this in!
+        this.move(arena, Direction.SOUTH);
+        List<Ship> nearby = this.getNearbyShips(arena);
+        if (nearby.size() > 0) {
+            Ship target = nearby.get(0);
+            Coord coord = target.getCoord();
+            this.fire(arena, coord.getX(), coord.getY());
+        }
     }
 
 }
