@@ -14,7 +14,6 @@
 =======
 *.war
 *.jar
-*.war
 *.nar
 *.ear
 *.zip
@@ -28,6 +27,7 @@ hs_err_pid*
 .idea/
 
 # Outputs
+out/
 OUTPUT
 DEBUG
 MISSION_HEADER
