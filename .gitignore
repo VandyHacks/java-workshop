@@ -25,7 +25,12 @@
 hs_err_pid*
 
 # IntelliJ stuff
-.idea/*
+.idea/
 
-# Solutions
-out/
+# Outputs
+OUTPUT
+DEBUG
+MISSION_HEADER
+arena.txt
+turns.txt
+results.json
