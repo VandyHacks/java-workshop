@@ -14,7 +14,7 @@ public class TealShip extends Ship {
      */
     public TealShip() {
         this.initializeName("Teal");
-        this.initializeOwner("Your Name");// TODO - Change this to your name!
+        this.initializeOwner("Your Name"); // TODO - Change this to your name!
 
         // TODO - Give your ship up to 10 points total for its hull, firepower, speed, and range
         this.initializeHull(1);
