@@ -1,3 +1,5 @@
+package duobattle;
+
 import duobattle.redteam.*;
 import duobattle.blueteam.*;
 import battleship.core.*;
@@ -37,8 +39,8 @@ public class Main extends Game {
 		return "Mission Objective: Win the 2v2 battle against the other team.";
 	}
 
-	private List<Ship> redTeam = new ArrayList<Ship>();
-	private List<Ship> blueTeam = new ArrayList<Ship>();
+	private List<Ship> redTeam = new ArrayList<>();
+	private List<Ship> blueTeam = new ArrayList<>();
 	
 	@Override
 	public Arena initializeArena() {

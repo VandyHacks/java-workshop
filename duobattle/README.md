@@ -41,6 +41,6 @@ If this is your first time playing, read the [Getting Started](https://mimirhq.g
 After you have renamed the mission folder, you can compile and run it:
 
 ```
-javac duobattle/Main.java
-java duobattle.Main
+javac duobattle/duobattle.Main.java
+java duobattle.duobattle.Main
 ```
