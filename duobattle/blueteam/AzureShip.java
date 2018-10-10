@@ -2,35 +2,33 @@ package duobattle.blueteam;
 import battleship.core.*;
 import java.util.List;
 
-/*
+/**
  * Blue Team: Azure Ship
- * @author Your Name
+ * @author TODO - Add your name!
  */
 public class AzureShip extends Ship {
-	
+
+	/**
+	 * Constructor
+	 */
 	public AzureShip() {
 		this.initializeName("Azure");
-		this.initializeOwner("Your Name");
+		this.initializeOwner("Your Name"); // TODO - Change this to your name!
+
+		// TODO - Give your ship up to 10 points for its hull, firepower, speed, and range
 		this.initializeHull(1);
 		this.initializeFirepower(1);
 		this.initializeSpeed(1);
 		this.initializeRange(1);
 	}
 	
-	/*
+	/**
 	 * Determines what actions the ship will take on a given turn
 	 * @param arena (Arena) the battlefield for the match
-	 * @return void
 	 */
 	@Override
 	protected void doTurn(Arena arena) {
-		this.move(arena, Direction.WEST);
-        List<Ship> nearby = this.getNearbyShips(arena);
-        if (nearby.size() > 0) {
-            Ship target = nearby.get(0);
-            Coord coord = target.getCoord();
-            this.fire(arena, coord.getX(), coord.getY());
-        }
+		// TODO - Fill this in!
 	}
 	
 }
