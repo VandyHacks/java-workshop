@@ -28,5 +28,4 @@ hs_err_pid*
 .idea/*
 
 # Solutions
-MainSolution.java
-MyShipSolution.java
+out/
