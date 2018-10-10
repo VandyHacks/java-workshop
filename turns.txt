@@ -1,0 +1,66 @@
+Turn 0
+duobattle.redteam.ScarletShip@1540e19d
+- Moved South, now at (0, 1).
+duobattle.blueteam.AzureShip@677327b6
+- Moved West, now at (8, 0).
+duobattle.redteam.CrimsonShip@14ae5a5
+- Moved North, now at (0, 8).
+duobattle.blueteam.TealShip@7f31245a
+- Moved North, now at (9, 8).
+Turn 1
+duobattle.redteam.ScarletShip@1540e19d
+- Moved South, now at (0, 2).
+duobattle.blueteam.AzureShip@677327b6
+- Moved West, now at (7, 0).
+duobattle.redteam.CrimsonShip@14ae5a5
+- Moved North, now at (0, 7).
+duobattle.blueteam.TealShip@7f31245a
+- Moved North, now at (9, 7).
+Turn 2
+duobattle.redteam.CrimsonShip@14ae5a5
+- Moved North, now at (0, 6).
+duobattle.redteam.ScarletShip@1540e19d
+- Moved South, now at (0, 3).
+duobattle.blueteam.AzureShip@677327b6
+- Moved West, now at (6, 0).
+duobattle.blueteam.TealShip@7f31245a
+- Moved North, now at (9, 6).
+Turn 3
+duobattle.blueteam.AzureShip@677327b6
+- Moved West, now at (5, 0).
+duobattle.blueteam.TealShip@7f31245a
+- Moved North, now at (9, 5).
+duobattle.redteam.ScarletShip@1540e19d
+- Moved South, now at (0, 4).
+duobattle.redteam.CrimsonShip@14ae5a5
+- Moved North, now at (0, 5).
+- Fired at (0, 4), sunk ship!
+Turn 4
+duobattle.redteam.CrimsonShip@14ae5a5
+- Moved North, now at (0, 4).
+duobattle.blueteam.AzureShip@677327b6
+- Moved West, now at (4, 0).
+duobattle.blueteam.TealShip@7f31245a
+- Moved North, now at (9, 4).
+Turn 5
+duobattle.redteam.CrimsonShip@14ae5a5
+- Moved North, now at (0, 3).
+duobattle.blueteam.AzureShip@677327b6
+- Moved West, now at (3, 0).
+duobattle.blueteam.TealShip@7f31245a
+- Moved North, now at (9, 3).
+Turn 6
+duobattle.redteam.CrimsonShip@14ae5a5
+- Moved North, now at (0, 2).
+duobattle.blueteam.AzureShip@677327b6
+- Moved West, now at (2, 0).
+duobattle.blueteam.TealShip@7f31245a
+- Moved North, now at (9, 2).
+Turn 7
+duobattle.redteam.CrimsonShip@14ae5a5
+- Moved North, now at (0, 1).
+duobattle.blueteam.TealShip@7f31245a
+- Moved North, now at (9, 1).
+duobattle.blueteam.AzureShip@677327b6
+- Moved West, now at (1, 0).
+- Fired at (0, 1), sunk ship!
