@@ -32,6 +32,8 @@ public class ScarletShip extends Ship {
      */
     @Override
     protected void doTurn(Arena arena) {
+
+
         this.move(arena, Direction.SOUTH);
         List<Ship> nearby = this.getNearbyShips(arena);
         if (nearby.size() > 0) {
