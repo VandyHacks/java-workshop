@@ -2,7 +2,6 @@ import duobattle.*;
 import battleship.core.*;
 import java.util.*;
 import org.json.simple.JSONObject;
-import org.json.simple.JSONArray;
 
 /** Generate JSON
  * sed "s/^/import mission00.*;\\n/" RawDavyJonesLocker.java > DavyJonesLocker.java
