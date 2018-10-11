@@ -43,7 +43,7 @@ public class AzureShip extends Ship {
          * Let's build a basic patrol ship.
          */
 
-        // TODO - Let's make the ship move WEST on every turn
+        // TODO - Let's make the ship move WEST on every turn. Once it can't, it should move SOUTH.
 
         // TODO - Next, let's obtain all nearby ships in the arena
 
